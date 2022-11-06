@@ -535,7 +535,7 @@ address {
   line-height: 1.25;
   align-items: center;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--first-color);
   padding-left: 16px;
   width: 358px;
   height: 50px;
@@ -544,8 +544,20 @@ address {
   border-radius: 4px;
   background-color: transparent;
 }
+
+.footer-form-email::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  padding-left: 16px;
+}
+
 .footer-singup {
-  display: inline-block;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
 }
@@ -557,7 +569,6 @@ address {
   font-size: 16px;
   line-height: 1.88;
   align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--first-color);
   background: var(--accent);
@@ -785,7 +796,7 @@ address {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
+  color: var(--main-color);
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   margin-bottom: 20px;
